@@ -834,7 +834,7 @@ nav.scrolled {
 .experience-section {
   padding: 80px 0;
   overflow: hidden;
-  background: var(--white);
+  background: linear-gradient(180deg, #f4efff 0%, #ece0ff 100%);
 }
 
 .experience-section .wrap {
@@ -861,8 +861,8 @@ nav.scrolled {
   min-width: 260px;
   padding: 28px 32px;
   border-radius: var(--radius);
-  background: var(--cream);
-  border: 1px solid var(--border);
+  background: rgba(91, 62, 166, 0.14);
+  border: 1px solid rgba(91, 62, 166, 0.18);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: default;
 }
@@ -1852,22 +1852,34 @@ footer strong {
   }
 
   .experience-slider {
-    overflow: visible;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 12px;
   }
 
   .experience-track {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     gap: 18px;
-    width: 100%;
+    width: auto;
     animation: none;
-    padding: 0;
+    padding: 8px 0 20px;
+    scroll-snap-type: x mandatory;
   }
 
-  .exp-card {
-    min-width: auto;
-    width: 100%;
-    max-width: 100%;
+  .experience-track > .exp-card {
+    flex: 0 0 280px;
+    scroll-snap-align: start;
+    min-width: 280px;
+    width: auto;
+  }
+
+  .experience-track::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .experience-track::-webkit-scrollbar-thumb {
+    background: rgba(91, 62, 166, 0.25);
+    border-radius: 999px;
   }
 
   .project-card,
