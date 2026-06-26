@@ -1851,15 +1851,23 @@ footer strong {
     font-size: 1.9rem;
   }
 
+  .experience-slider {
+    overflow: visible;
+  }
+
   .experience-track {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
     width: 100%;
     animation: none;
-    gap: 18px;
+    padding: 0;
   }
 
   .exp-card {
     min-width: auto;
     width: 100%;
+    max-width: 100%;
   }
 
   .project-card,
