@@ -1943,6 +1943,18 @@ footer strong {
     max-width: 320px;
   }
 
+  .project-card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .project-card-actions .btn-primary,
+  .project-card-actions .btn-ghost {
+    width: 100%;
+  }
+
   .project-card,
   .web-card,
   .education-card {
