@@ -1852,7 +1852,7 @@ footer strong {
   }
 
   .experience-slider {
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     padding-bottom: 12px;
   }
@@ -1861,9 +1861,13 @@ footer strong {
     display: flex;
     gap: 18px;
     width: auto;
-    animation: none;
+    animation: scrollLeft 18s linear infinite;
     padding: 8px 0 20px;
     scroll-snap-type: x mandatory;
+  }
+
+  .experience-track:hover {
+    animation-play-state: paused;
   }
 
   .experience-track > .exp-card {
