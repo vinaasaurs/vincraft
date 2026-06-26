@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ade Vina Puspitasari — UI/UX & Web Developer</title>
+  <meta name="description"
+    content="Portfolio of Ade Vina Puspitasari — Information Technology student at Universitas Brawijaya, passionate about UI/UX Design and Web Development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand">Vina<span class="dot">.</span></a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#uiux">UI/UX</a>
+        <a href="#website">Projects</a>
+        <a href="#archive">Archive</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" role="navigation">
+      <a href="#about">About</a>
+      <a href="#uiux">UI/UX</a>
+      <a href="#website">Projects</a>
+      <a href="#archive">Archive</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="wrap hero-grid">
+      <div class="hero-text" data-animate>
+        <div class="eyebrow"><span class="eyebrow-dot"></span>Creative Portfolio</div>
+        <h1>Hi, I'm <span class="name-highlight">Ade Vina Puspitasari</span> </h1>
+        <p class="lead">Hi! I'm an IT student at Universitas Brawijaya with a growing passion for <em> UI/UX Design and
+            Web Development.</em> I enjoy designing intuitive interfaces and developing responsive websites that create
+          seamless user experiences. I believe every great product begins with understanding its users, combining
+          thoughtful design with practical technology, and continuously improving through learning and creativity.</p>
+        <div class="hero-ctas">
+          <a href="#uiux" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">3.57</div>
+            <div class="stat-label">GPA / 4.00</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <div class="stat-num">6+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <div class="stat-num">2024</div>
+            <div class="stat-label">UB · Present</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo" data-animate data-delay="200">
+        <div class="photo-ring"></div>
+        <div class="photo-blob">
+          <img src="assets/vina.png" alt="Ade Vina Puspitasari">
+        </div>
+        <div class="photo-badge badge-1">
+          <span class="badge-icon">✦</span> UI/UX Designer
+        </div>
+        <div class="photo-badge badge-2">
+          <span class="badge-icon">⚡</span> Web Developer
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SCROLLING TOC STRIP -->
+  <div class="toc" aria-hidden="true">
+    <div class="toc-track">
+      <div class="toc-group">
+        <span><em>01</em> About</span>
+        <span><em>02</em> UI/UX Design</span>
+        <span><em>03</em> Web Projects</span>
+        <span><em>04</em> Experience</span>
+        <span><em>05</em> Contact</span>
+      </div>
+      <div class="toc-group" aria-hidden="true">
+        <span><em>01</em> About</span>
+        <span><em>02</em> UI/UX Design</span>
+        <span><em>03</em> Web Projects</span>
+        <span><em>04</em> Experience</span>
+        <span><em>05</em> Contact</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="wrap">
+      <div class="section-label">Get To Know Me</div>
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-grid">
+        <!-- Left: Bio + Traits -->
+        <div class="about-left">
+          <p class="about-bio">I'm a first-year IT student at Universitas Brawijaya with a background in Software
+            Engineering from SMK Negeri 5 Malang. I love building things that look good and work well from
+            mobile UI to full stack web apps.</p>
+
+          <div class="traits-heading">What defines me</div>
+          <div class="pill-row">
+            <span class="pill">🔍 Problem Solver</span>
+            <span class="pill">🎨 Creative Thinker</span>
+            <span class="pill">📐 Disciplined</span>
+            <span class="pill">🔄 Adaptable</span>
+            <span class="pill">🤝 Team Player</span>
+            <span class="pill">💡 Responsible</span>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Design</h4>
+              <div class="skill-tags">
+                <span>UI/UX</span><span>Prototyping</span><span>Wireframing</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Frontend & Backend</h4>
+              <div class="skill-tags">
+                <span>HTML/CSS</span><span>PHP</span><span>JavaScript</span><span>Rest
+                  API</span><span>MySQL</span><span>Laravel</span><span>Firebase</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Tools & Others</h4>
+              <div class="skill-tags">
+                <span>Figma</span><span>VS Code</span><span>Canva</span><span>Capcut</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Education -->
+        <div class="about-right">
+          <div class="education-card">
+            <div class="edu-header">
+              <div class="edu-icon">🎓</div>
+              <h3>Academic Background</h3>
+            </div>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                  <div class="tl-year">2024 — Present</div>
+                  <div class="tl-place">
+                    <img src="assets/logo_ub.png" alt="UB" class="tl-logo">
+                    <div>
+                      <h5>Universitas Brawijaya</h5>
+                      <span>Information Technology</span>
+                    </div>
+                  </div>
+                  <div class="tl-gpa">GPA <strong>3.57</strong> / 4.00</div>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                  <div class="tl-year">2021 — 2024</div>
+                  <div class="tl-place">
+                    <img src="assets/logo_SMK5.png" alt="SMK5" class="tl-logo">
+                    <div>
+                      <h5>SMK Negeri 5 Malang</h5>
+                      <span>Software Engineering</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience-section" id="experience">
+    <div class="wrap">
+      <div class="section-label">What I've Done</div>
+      <h2 class="section-title">Organization & Experience</h2>
+    </div>
+    <div class="experience-slider">
+      <div class="experience-track">
+        <div class="exp-card">
+          <div class="exp-year">2025</div>
+          <h4>Girl's Generation</h4>
+          <span class="exp-role">📸 Documentation</span>
+        </div>
+        <div class="exp-card">
+          <div class="exp-year">2024</div>
+          <h4>Abdi Desa</h4>
+          <span class="exp-role">📊 DDM</span>
+        </div>
+        <div class="exp-card">
+          <div class="exp-year">2024</div>
+          <h4>BEM — Stafma Puskominfo</h4>
+          <span class="exp-role">👥 Member</span>
+        </div>
+        <div class="exp-card">
+          <div class="exp-year">2023</div>
+          <h4>Internship</h4>
+          <span class="exp-role">🎨 Team Visual</span>
+        </div>
+        <!-- Duplicate for infinite loop -->
+        <div class="exp-card" aria-hidden="true">
+          <div class="exp-year">2025</div>
+          <h4>Girl's Generation</h4>
+          <span class="exp-role">📸 Documentation</span>
+        </div>
+        <div class="exp-card" aria-hidden="true">
+          <div class="exp-year">2024</div>
+          <h4>Abdi Desa</h4>
+          <span class="exp-role">📊 DDM</span>
+        </div>
+        <div class="exp-card" aria-hidden="true">
+          <div class="exp-year">2024</div>
+          <h4>BEM — Stafma Puskominfo</h4>
+          <span class="exp-role">👥 Member</span>
+        </div>
+        <div class="exp-card" aria-hidden="true">
+          <div class="exp-year">2023</div>
+          <h4>Internship</h4>
+          <span class="exp-role">🎨 Team Visual</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UI/UX PROJECTS -->
+  <section class="section projects-section" id="uiux">
+    <div class="wrap">
+      <div class="section-label">01 — User Interface Design</div>
+      <h2 class="section-title">UI/UX Projects</h2>
+      <p class="section-sub">Mobile application designs focused on intuitive flows, clean visuals, and user-centered
+        problem solving.</p>
+
+      <!-- Project: TIX ID -->
+      <div class="project-card" data-animate>
+        <div class="project-header">
+          <div class="project-meta-row">
+            <span class="tag-year">2023</span>
+            <span class="tag-type">Individual Project</span>
+            <span class="tag-platform">📱 Mobile App</span>
+          </div>
+          <h3>TIX ID Redesign</h3>
+          <p>A mobile application design project developed during vocational high school.The app helps users discover
+            movies, select showtimes and seats, and purchase cinema tickets. Reimagined to deliver a more modern, clean,
+            and user-friendly experience.</p>
+        </div>
+        <br>
+        <div class="project-card-actions">
+          <a href="https://www.figma.com/design/qxNoOGeNe3DdIT83M3Ajgg/Tugas-SMK--Adevina.p?node-id=0-1&p=f&t=ZiF6Q0xTlIog81cL-0"
+            target="_blank" rel="noopener" class="btn-primary">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project: NutriScan -->
+      <div class="project-card project-card-alt" data-animate>
+        <div class="project-header">
+          <div class="project-meta-row">
+            <span class="tag-year">2026</span>
+            <span class="tag-type">Team Project</span>
+            <span class="tag-platform">📱 Mobile App</span>
+            <span class="tag-role">Role: UI Designer</span>
+          </div>
+          <h3>NutriScan</h3>
+          <p>A mobile application that allows users to scan food items to instantly access nutritional information,
+            calorie estimates, and ingredient details. Designed to help users make healthier food choices with a simple,
+            friendly interface.</p>
+        </div>
+        <br>
+        <div class="project-card-actions">
+          <a href="https://www.figma.com/design/wQ7FPnb2brOrCW5gUCmppT/NutriScan?node-id=0-1&p=f&t=6fgjJ0hc3QJOsDdc-0"
+            target="_blank" rel="noopener" class="btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEB PROJECTS -->
+  <section class="section web-section" id="website">
+    <div class="wrap">
+      <div class="section-label">02 — Web & App Development</div>
+      <h2 class="section-title">Website Projects</h2>
+      <p class="section-sub">Full-stack and IoT-based projects combining backend logic, cloud processing, and clean user
+        interfaces.</p>
+
+      <div class="web-projects-grid">
+
+        <div class="web-card" data-animate>
+          <div class="web-card-icon">📊</div>
+          <br>
+          <div class="web-card-content">
+            <div class="project-meta-row">
+              <span class="tag-year">2026</span>
+              <span class="tag-type">Team Project</span>
+              <span class="tag-tech">Frontend Development</span>
+            </div>
+            <h3>Selimon</h3>
+            <p class="web-card-subtitle">Smart Sedentary Lifestyle Monitor</p>
+            <p>Smart Sedentary Lifestyle Monitoring System is an Internet of Things (IoT)-based application designed to
+              monitor users' physical activity in real time using an ESP32 microcontroller and an MPU6050 sensor. The
+              system displays activity data on a web-based dashboard and sends notifications via the website, WhatsApp,
+              and a buzzer when prolonged sedentary behavior is detected.</p>
+            <br>
+            <div class="project-card-actions">
+              <a href="https://github.com/vinaasaurs/Sedentary-System-" target="_blank" rel="noopener"
+                class="btn-primary">Github</a>
+              <a href="https://selimon-production.up.railway.app/" target="_blank" rel="noopener" class="btn-ghost">Live
+                Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="web-card" data-animate>
+          <div class="web-card-icon">🐾</div>
+          <br>
+          <div class="web-card-content">
+            <div class="project-meta-row">
+              <span class="tag-year">2025</span>
+              <span class="tag-type">Team Project</span>
+              <span class="tag-tech">Laravel</span>
+              <span class="tag-tech">Firebase</span>
+              <span class="tag-tech">UI/UX Design</span>
+              <span class="tag-tech">Prototyping</span>
+              <span class="tag-tech">Frontend Development</span>
+
+            </div>
+            <h3>Paw Paw Shelter</h3>
+            <p class="web-card-subtitle">Pet Adoption Platform</p>
+            <p>A mobile application built with Laravel and Firebase to facilitate pet adoption and shelter management.
+              Helps users find pets for adoption and connect with local animal shelters.</p>
+            <br>
+            <div class="project-card-actions">
+              <a href="https://www.figma.com/design/oy7msoaGrSISGVSix4NaR4/PetCare-Connect?node-id=28-2&t=cNU2jAMBZO66OcGO-1"
+                class="btn-primary" aria-label="View Paw Paw Shelter project details">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="web-card" data-animate>
+          <div class="web-card-icon">📚</div>
+          <br>
+          <div class="web-card-content">
+            <div class="project-meta-row">
+              <span class="tag-type">Team Project</span>
+              <span class="tag-tech">Website</span>
+              <span class="tag-tech">Full Stack Development</span>
+              <span class="tag-tech">UI/UX Design</span>
+              <span class="tag-tech">User Flow</span>
+              <span class="tag-tech">Prototyping</span>
+            </div>
+            <h3>PrajaEdu</h3>
+            <p class="web-card-subtitle">Educational Mobile App</p>
+            <p>A mobile-based educational application supporting learning through digital technology. Provides access to
+              learning materials, assignments, and educational information in an interactive environment.</p>
+            <br>
+            <div class="project-card-actions">
+              <a href="https://github.com/vinaasaurs/prajaedu" target="_blank" rel="noopener" class="btn-primary"
+                aria-label="View PrajaEdu project details">View Project</a>
+              <a href="https://www.figma.com/design/LW3IhRumDKeS2ZAWLTqMxW/Praja-Edu-s-Learning?node-id=9-4&t=oYylk3qN3tUbBssX-1"
+                target="_blank" rel="noopener" class="btn-ghost" aria-label="View PrajaEdu Figma design">View Figma</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="web-card" data-animate>
+          <div class="web-card-icon">🔥</div>
+          <br>
+          <div class="web-card-content">
+            <div class="project-meta-row">
+              <span class="tag-year">2025</span>
+              <span class="tag-type">Team Project</span>
+              <span class="tag-tech">Frontend Development</span>
+            </div>
+            <h3>Fire Detection System</h3>
+            <p class="web-card-subtitle">Real-time Fire Detection with AI</p>
+            <p>A fire detection system using YOLOv8 trained on a custom Roboflow dataset, integrated with a Laravel
+              backend for real-time inference, media uploads, and automatic alert notifications.</p>
+            <br>
+            <div class="project-card-actions">
+              <a href="https://github.com/vinaasaurs/Fire-Detection" target="_blank" rel="noopener" class="btn-primary"
+                aria-label="View Fire Detection System project details">View Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ARCHIVE -->
+  <section class="section archive-section" id="archive">
+    <div class="wrap">
+      <div class="section-label">03 — Archive</div>
+      <h2 class="section-title">Earlier Work</h2>
+      <p class="section-sub">Internship contributions and early projects that shaped my path in design and development.
+      </p>
+
+      <div class="archive-card" data-animate>
+        <div class="archive-icon">🌐</div>
+        <div class="archive-content">
+          <div class="project-meta-row">
+            <span class="tag-type">Internship Project</span>
+            <span class="tag-tech">UI/UX Design</span>
+          </div>
+          <h3>Halaman Online</h3>
+          <p>A digital service platform developed during an internship program. Added a 3D design visualization feature
+            so users can view design results interactively and realistically before placing an order — improving clarity
+            and overall experience.</p>
+          <br>
+          <div class="project-card-actions">
+            <a href="https://www.figma.com/design/hCkHXjkyFHg6TZIJEK6Ccz/Halaman-Online?node-id=0-1&t=4BOYttfUvgCBeFqD-1"
+              target="_blank" rel="noopener" class="btn-primary" aria-label="View Halaman Online Figma design">View
+              Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section cert-section" id="certificates">
+    <div class="wrap">
+      <div class="section-label">Credentials</div>
+      <h2 class="section-title">Licenses & <span class="heading-highlight">Certifications</span></h2>
+      <p class="section-sub">Courses and certificates that showcase skills in design, development, and digital product
+        delivery.</p>
+
+      <div class="cert-scroll-outer">
+        <button class="cert-nav-btn cert-nav-prev" id="navPrev" aria-label="Scroll left">←</button>
+        <button class="cert-nav-btn cert-nav-next" id="navNext" aria-label="Scroll right">→</button>
+
+        <div class="cert-scroll-wrap" id="certScroll">
+          <div class="cert-card active" tabindex="0" data-title="Internship Certification"
+            data-source="Dako Brand & Communication" data-image="assets/sertifikat_visual.jpg"
+            aria-label="View Internship Certification">
+            <div class="cert-thumb">
+              <div class="cert-thumb-placeholder">
+                <img src="assets/sertifikat_visual.jpg" alt="Sertifikat Internship" class="cert-thumb-img">
+              </div>
+            </div>
+            <div class="cert-info">
+              <p class="cert-card-title">Internship Dako Brand & Communication</p>
+              <p class="cert-card-sub"> Juni - Desember 2023</p>
+            </div>
+          </div>
+
+          <div class="cert-card" tabindex="0" data-title="Sertifikat Sololearn" data-source="Introduction to Java"
+            data-image="assets/sertifikat_sololearn.jpeg" aria-label="View Introduction to Java Certificate">
+            <div class="cert-thumb">
+              <div class="cert-thumb-placeholder">
+                <img src="assets/sertifikat_sololearn.jpeg" alt="Introduction to Java Certificate"
+                  class="cert-thumb-img">
+              </div>
+            </div>
+            <div class="cert-info">
+              <p class="cert-card-title">Introduction to Java</p>
+              <p class="cert-card-sub">course · sololearn</p>
+            </div>
+          </div>
+
+          <div class="cert-card" tabindex="0" data-title="Certificate Achievement" data-source="Generation Girl"
+            data-image="assets/sertifikat_gng.jpeg" aria-label="View Certificate Achievement">
+            <div class="cert-thumb">
+              <div class="cert-thumb-placeholder">
+                <img src="assets/sertifikat_gng.jpeg" alt="Certificate Achievement" class="cert-thumb-img">
+              </div>
+            </div>
+            <div class="cert-info">
+              <p class="cert-card-title">Certificate Achivement</p>
+              <p class="cert-card-sub">Volunteer · Generation Girl</p>
+            </div>
+          </div>
+
+          <div class="cert-card" tabindex="0" data-title="Certificate of Participation"
+            data-source="RKIM Future Scientist 1" data-image="assets/sertifikat_partisipasi.jpeg"
+            aria-label="View RKIM Future Scientist 1 Certificate">
+            <div class="cert-thumb">
+              <div class="cert-thumb-placeholder">
+                <img src="assets/sertifikat_partisipasi.jpeg" alt="RKIM Future Scientist 1" class="cert-thumb-img">
+              </div>
+            </div>
+            <div class="cert-info">
+              <p class="cert-card-title">Certificate of Participation</p>
+              <p class="cert-card-sub">RKIM Future Scientist 1</p>
+            </div>
+          </div>
+
+          <div class="cert-card" tabindex="0" data-title="Certificate of Participation"
+            data-source="Yoursay Daebak Season 2" data-image="assets/sertifikat_partisipasi2.jpeg"
+            aria-label="View Certificate of Participation">
+            <div class="cert-thumb">
+              <div class="cert-thumb-placeholder">
+                <img src="assets/sertifikat_partisipasi2.jpeg" alt="Certificate of Participation"
+                  class="cert-thumb-img">
+              </div>
+            </div>
+            <div class="cert-info">
+              <p class="cert-card-title">Certificate of Participation</p>
+              <p class="cert-card-sub">Yoursay.id</p>
+            </div>
+          </div>
+
+          <div class="cert-card" tabindex="0" data-title="Certificate of Participation"
+            data-source="Tegal Learning Center" data-image="assets/sertifikat_partisipasi3.jpeg"
+            aria-label="View Certificate of Participation">
+            <div class="cert-thumb">
+              <div class="cert-thumb-placeholder">
+                <img src="assets/sertifikat_partisipasi3.jpeg" alt="Certificate of Participation"
+                  class="cert-thumb-img">
+              </div>
+            </div>
+            <div class="cert-info">
+              <p class="cert-card-title">Certificate of Participation</p>
+              <p class="cert-card-sub">Tegal Learning Center</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-dots" id="certDots" role="tablist" aria-label="Certificate navigation">
+        <button class="cert-dot on" role="tab" aria-selected="true" aria-label="Card 1"></button>
+        <button class="cert-dot" role="tab" aria-label="Card 2"></button>
+        <button class="cert-dot" role="tab" aria-label="Card 3"></button>
+        <button class="cert-dot" role="tab" aria-label="Card 4"></button>
+        <button class="cert-dot" role="tab" aria-label="Card 5"></button>
+        <button class="cert-dot" role="tab" aria-label="Card 6"></button>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle"
+    aria-hidden="true">
+    <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+    <div class="cert-modal-panel">
+      <button class="cert-modal-close" id="certModalClose" aria-label="Close">×</button>
+      <h3 id="certModalTitle">Certificate Preview</h3>
+      <img id="certModalImage" src="" alt="Certificate image preview" />
+      <div class="cert-modal-meta">
+        <span class="cert-modal-tag" id="certModalSource">–</span>
+        <span class="cert-modal-id" id="certModalId">–</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="contact-bg-orbs">
+      <div class="orb orb-c1"></div>
+      <div class="orb orb-c2"></div>
+    </div>
+    <div class="wrap contact-inner">
+      <div class="section-label light">Let's Connect</div>
+      <h2 class="section-title light">Get In Touch</h2>
+      <p class="contact-sub">Open for collaboration, internships, and design opportunities. Feel free to reach out!</p>
+      <div class="contact-card">
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/ade-vina-puspitasari-006396322/" target="_blank" rel="noopener"
+            class="contact-btn">
+            <span class="contact-btn-icon"><img src="assets/logo_linkedln.png" alt="LinkedIn"></span>
+            <div>
+              <div class="contact-btn-label">LinkedIn</div>
+              <div class="contact-btn-value">ade vina puspitasari</div>
+            </div>
+          </a>
+          <a href="mailto:ad3v1na25@gmail.com" class="contact-btn">
+            <span class="contact-btn-icon"><img src="assets/logo_gmail.png" alt="Email"></span>
+            <div>
+              <div class="contact-btn-label">Email</div>
+              <div class="contact-btn-value">ad3v1na25@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/vinaasaurs/" target="_blank" rel="noopener" class="contact-btn">
+            <span class="contact-btn-icon"><img src="assets/logo_ig.png" alt="Instagram"></span>
+            <div>
+              <div class="contact-btn-label">Instagram</div>
+              <div class="contact-btn-value">vinaasaurs</div>
+            </div>
+          </a>
+          <a href="https://github.com/vinaasaurs" target="_blank" rel="noopener" class="contact-btn">
+            <span class="contact-btn-icon"><img src="assets/logo_github.png" alt="GitHub"></span>
+            <div>
+              <div class="contact-btn-label">GitHub</div>
+              <div class="contact-btn-value">vinaasaurs</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap footer-inner">
+      <span class="footer-brand">Vina<span class="dot">.</span></span>
+      <span>© 2026 <strong>Ade Vina Puspitasari</strong> — Universitas Brawijaya</span>
+      <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
