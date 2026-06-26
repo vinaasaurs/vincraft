@@ -1946,7 +1946,7 @@ footer strong {
   .project-card-actions {
     display: flex;
     flex-direction: column;
-    gap: 1.5cm;
+    gap: 1cm;
     padding-bottom: 1rem;
   }
 
